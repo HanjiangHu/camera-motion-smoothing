@@ -2,6 +2,8 @@
 
 This the official code,dataset and models for CoRL 2022 "Robustness Certification of Visual Perception Models via Camera Motion Smoothing". Check out [arxiv PDF](https://arxiv.org/abs/2210.04625) for more details.
 
+[![Robustness Certification of Visual Perception Models via Camera Motion Smoothing](https://res.cloudinary.com/marcomontalbano/image/upload/v1665985036/video_to_markdown/images/youtube--iCfRBk3O3CA-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=iCfRBk3O3CA "Robustness Certification of Visual Perception Models via Camera Motion Smoothing")
+
 ## Preparation
 Run the following command to install all packages.
 
