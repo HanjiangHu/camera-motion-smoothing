@@ -15,16 +15,16 @@ Download the dataset from [here](https://drive.google.com/file/d/1rX-21GtWRxpJsn
 
 
 ## Model training of motion augmented and vanilla models
-For the model training, run the `bash train_18.sh` and `bash train_50.sh` for ResNet-18 and ResNet-50 architectures for both vanilla and motion augmented model training. 
+For the model training, run the `bash ./scripts/train_18.sh` and `bash ./scripts/train_50.sh` for ResNet-18 and ResNet-50 architectures for both vanilla and motion augmented model training. 
 
 
 ## Benign and empirical robust accuracy
-For benign and empirical robust accuracy of  both base vanilla and base motion augmented models, run `bash empirical_test_18_base.sh` and `bash empirical_test_50_base.sh`. 
-To implement motion smoothing for both vanilla and motion augmented models to get benign and empirical robust accuracy, run `bash empirical_test_18.sh` and `bash empirical_test_50.sh`. Note that `--uniform` indicates the empirical robust accuracy while the default is benign accuracy. Change `--pretrain` for correct pretrained models if necessary. Change `--sample_num` (default 100) to adjust grid search based worst case robustness if necessary.
+For benign and empirical robust accuracy of  both base vanilla and base motion augmented models, run `bash ./scripts/empirical_test_18_base.sh` and `bash ./scripts/empirical_test_50_base.sh`. 
+To implement motion smoothing for both vanilla and motion augmented models to get benign and empirical robust accuracy, run `bash ./scripts/empirical_test_18.sh` and `bash ./scripts/empirical_test_50.sh`. Note that `--uniform` indicates the empirical robust accuracy while the default is benign accuracy. Change `--pretrain` for correct pretrained models if necessary. Change `--sample_num` (default 100) to adjust grid search based worst case robustness if necessary.
 
 ## Certified accuracy for smoothed models
-For certification of smoothed vanilla and motion augmented models, run the `bash certify_18.sh` and `bash certify_18.sh`  and output logs are located in `./data`.   Change `--pretrain` for correct pretrained models if necessary.
-To get the certified accuracy, run the `bash analyze_18.sh` and `bash analyze_18.sh` and output logs are located in `./data/results`. The figures of certified accuracy of radius can be plotted by running `python plot.py`.
+For certification of smoothed vanilla and motion augmented models, run the `bash ./scripts/certify_18.sh` and `bash ./scripts/certify_18.sh`  and output logs are located in `./data`.   Change `--pretrain` for correct pretrained models if necessary.
+To get the certified accuracy, run the `bash ./scripts/analyze_18.sh` and `bash ./scripts/analyze_18.sh` and output logs are located in `./data/results`. The figures of certified accuracy of radius can be plotted by running `python plot.py`.
 
 
 ## Citation
