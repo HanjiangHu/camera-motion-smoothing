@@ -36,11 +36,16 @@ H. Hu, Z. Liu, L. Li, J. Zhu and D. Zhao
 "[Robustness Certification of Visual Perception Models via Camera Motion Smoothing](https://arxiv.org/abs/2210.04625)", CoRL 2022
 
 ```
-@article{hu2022robustness,
-  title={Robustness Certification of Visual Perception Models via Camera Motion Smoothing},
-  author={Hu, Hanjiang and Liu, Zuxin and Li, Linyi and Zhu, Jiacheng and Zhao, Ding},
-  journal={arXiv preprint arXiv:2210.04625},
-  year={2022}
+@InProceedings{pmlr-v205-hu23b,
+  title = 	 {Robustness Certification of Visual Perception Models via Camera Motion Smoothing},
+  author =       {Hu, Hanjiang and Liu, Zuxin and Li, Linyi and Zhu, Jiacheng and Zhao, Ding},
+  booktitle = 	 {Proceedings of The 6th Conference on Robot Learning},
+  pages = 	 {1309--1320},
+  year = 	 {2023},
+  volume = 	 {205},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {14--18 Dec},
+  publisher =    {PMLR}
 }
 ```
 
