@@ -11,6 +11,8 @@ Run the following command to install all packages.
 
 
 ## MetaRoom dataset
+Check [here](https://sites.google.com/view/metaroom-dataset/home) for the introduction to MetaRoom Dataset.
+
 Download the dataset from [here](https://drive.google.com/file/d/1rX-21GtWRxpJsnjb9D2wCwtdwqnXEM8a/view?usp=sharing) which includes camera motion augmented and vanilla dataset with 6 camera motions. Unzip the dataset  in the root path for the `./metaroom/metaroom_XXX` folder structure. Under each dataset, there are training, validation set of images and certification set of point clouds, camera poses and intrinsics as pickle files for test. Note that training and validation set are captured directly from Webots while certification set are projected from point clouds to make the comparison between empirical robustness and certifiable robustness fair. You can also download the demo point cloud of the entire room from [here](https://drive.google.com/file/d/1X5y1vIrDTRUFkbUEkGaxDTLMNSHSNyCw/view?usp=sharing) for visualization. 
 
 
